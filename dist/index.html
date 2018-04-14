@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Light mode calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="style/screen.min.css" />
+
+</head>
+
+<body>
+
+    <main class="c-calculator">
+        <div class="c-row">
+            <input type="number" class="c-calculator__result js-result" value="0" />
+            <button class="c-calculator-button js-back">←</button>
+        </div>
+
+        <div class="c-row">
+            <button class="c-calculator-button js-number">7</button>
+            <button class="c-calculator-button js-number">8</button>
+            <button class="c-calculator-button js-number">9</button>
+            <button class="c-calculator-button c-calculator-button__divide js-divide">%</button>
+        </div>
+
+        <div class="c-row">
+            <button class="c-calculator-button js-number">4</button>
+            <button class="c-calculator-button js-number">5</button>
+            <button class="c-calculator-button js-number">6</button>
+            <button class="c-calculator-button c-calculator-button__times js-times">x</button>
+        </div>
+
+        <div class="c-row">
+            <button class="c-calculator-button js-number">1</button>
+            <button class="c-calculator-button js-number">2</button>
+            <button class="c-calculator-button js-number">3</button>
+            <button class="c-calculator-button c-calculator-button__minus js-minus">-</button>
+        </div>
+
+        <div class="c-row">
+            <button class="c-calculator-button">,</button>
+            <button class="c-calculator-button js-number">0</button>
+            <button class="c-calculator-button js-reset">c</button>
+            <button class="c-calculator-button c-calculator-button__add js-add">+</button>
+        </div>
+
+        <div class="c-row c-row--sm">
+            <button class="c-footer__mode js-mode">switch mode</button>
+        </div>
+    </main>
+
+<script src="script/app.min.js"></script>
+    
+</body>
+
+</html>
