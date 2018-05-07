@@ -1,4 +1,4 @@
-var Calculator = (function ()  {
+let Calculator = (function ()  {
 
     "use strict";
 

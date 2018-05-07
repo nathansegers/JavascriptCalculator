@@ -1,5 +1,23 @@
+$white: #fafafa;
+$black: #333333;
+
 html {
     font-size: 1em;
+}
+
+body.dark {
+    background: $black;
+    color: $white;
+    .c-calculator-button {
+        color: $white;
+    }
+    .c-calculator__result {
+        border-color: $white;
+        color: $white;
+    }
+    .c-footer__mode {
+        color: $white;
+    }
 }
 
 .c-calculator-button {
@@ -19,6 +37,8 @@ html {
 .c-calculator__result {
     width: 150px;
     padding: 5px;
+    background: transparent;
+    border: 1px solid $black;
 }
 .c-footer__mode {
     border: none;

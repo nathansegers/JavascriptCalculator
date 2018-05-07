@@ -36,8 +36,6 @@
     };
 
 
-    
-
 
     let initializeElements = function(){
         calculator_result = document.querySelector(".js-result");
@@ -141,7 +139,7 @@
             clearInput();
         },
         mode: function() {
-            console.log("Change mode button clicked");
+            DarkMode.set();
         }
     }
 
